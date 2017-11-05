@@ -8,7 +8,7 @@ PKG_RELEASE:=1
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_URL:=git@github.com:transitd/transitd.git
+PKG_SOURCE_URL:=https://github.com/transitd/transitd.git
 PKG_SOURCE_VERSION:=master
 
 PKG_MAINTAINER:=Alex R <alex@maximum.guru>
