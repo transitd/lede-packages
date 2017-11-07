@@ -22,7 +22,7 @@ define Package/transitd
   CATEGORY:=Network
   TITLE:=Transit Daemon
   URL:=https://transitd.org/
-  DEPENDS:=+lua +luasocket +cgilua +lua-cjson +lua-inifile +lua-xavante +lua-wsapi-xavante +jsonrpc4lua +lua-sha2 +lua-bencode +dkjson +lua-bit32 +luasql-sqlite3 +lua-alt-getopt +luaproc +lua-coxpcall +lua-copas +ipip +kmod-ip6-tunnel +kmod-iptunnel4 +kmod-iptunnel6 +ip-full -ip -ping -ping6 +iputils-ping +iputils-ping6 +cjdns
+  DEPENDS:=+lua +luasocket +cgilua +lua-cjson +lua-inifile +lua-xavante +lua-wsapi-xavante +jsonrpc4lua +lua-sha2 +lua-bencode +dkjson +lua-bit32 +luasql-sqlite3 +lua-alt-getopt +luaproc +lua-coxpcall +lua-copas +ipip +kmod-ip6-tunnel +kmod-iptunnel4 +kmod-iptunnel6 +ip-full +iputils-ping +iputils-ping6 +cjdns
 endef
 
 define Package/transitd/description
